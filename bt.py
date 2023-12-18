@@ -43,10 +43,10 @@ class Stack:
         self.size -= 1
         return remove.value
 
-class AbstracrtBinaryTree:
+class AbstractBinaryTree:
     ...
 
-class BinaryTree(AbstracrtBinaryTree):
+class BinaryTree(AbstractBinaryTree):
     class Node:
         def __init__(self, data=None, left=None, right=None):
             self.data = data
