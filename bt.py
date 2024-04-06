@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 class Stack:
     class Node:
         def __init__(self, value):
@@ -43,8 +41,10 @@ class Stack:
         self.size -= 1
         return remove.value
 
+
 class AbstractBinaryTree:
     ...
+
 
 class BinaryTree(AbstractBinaryTree):
     class Node:
